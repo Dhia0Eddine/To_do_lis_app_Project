@@ -54,6 +54,8 @@ The **Task Manager Application** is a desktop application built using Qt and C++
 ![Main Interface](screenshots/mainwindow1.png)
 _A screenshot of the main interface of the Task Manager Application._
 
+![editing Interface](screenshots/mainwindow2.png)
+_A screenshot of the editing interface of the Task Manager Application._
 ## Future Enhancements
 
 - **Task Categories**: Add support for categorizing tasks.
