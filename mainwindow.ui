@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>850</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Add">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>40</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+    </property>
+    <property name="text">
+     <string>Add a Task</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="itemText">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>591</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  background-color: rgb(85, 170, 255);
+ color: #ffffff;
+  font-family: 'Times New Roman', serif; /* Roman font */
+font-style: italic;
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+  
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="Items_List">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>111</y>
+      <width>581</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> /* Dark background for the list widget */
+selection-color: rgb(0, 0, 127);
+border-color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+    color: #ffffff; /* Light text color */
+    border: 1px solid #4C566A;
+ font-family: 'Times New Roman', serif; /* Roman font */
+font-style: italic; 
+   font-size: 20px; /* Font size */
+     font-weight: bold;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="remove">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>130</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+    </property>
+    <property name="text">
+     <string>Remove</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearAll">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>660</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+    </property>
+    <property name="text">
+     <string>Clear All</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-160</x>
+      <y>-10</y>
+      <width>1011</width>
+      <height>771</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url(':/image/sheet-297179_1920.jpg')</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>Add</zorder>
+   <zorder>remove</zorder>
+   <zorder>clearAll</zorder>
+   <zorder>itemText</zorder>
+   <zorder>Items_List</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

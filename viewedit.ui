@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewEdit</class>
+ <widget class="QDialog" name="ViewEdit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>321</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  background-color: rgb(85, 170, 255);
+ color: #ffffff;
+  font-family: 'Times New Roman', serif; /* Roman font */
+font-style: italic;  
+  font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>100</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  background-color: rgb(85, 170, 255);
+ color: #ffffff;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="timeEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>140</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  background-color: rgb(85, 170, 255);
+ color: #ffffff;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveDate">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>90</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveTime">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>140</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveDesc">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveAll">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>290</y>
+     <width>83</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+   <property name="text">
+    <string>save all</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Quit">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>290</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+background-color: rgb(73, 147, 220);
+ color: #000000;
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+    border-radius: 15px;
+      border: 1px solid #000000; 
+     padding: 5px 10px;</string>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">   color: #000000;
+background-color: rgb(85, 170, 255);
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase
+</string>
+   </property>
+   <property name="text">
+    <string>description</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/image/sheet-297179_1920.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">   color: #000000;
+background-color: rgb(85, 170, 255);
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase;
+</string>
+   </property>
+   <property name="text">
+    <string>Completion Date</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">   color: #000000;
+background-color: rgb(85, 170, 255);
+  font-family: 'Times New Roman', serif; /* Roman font */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase
+</string>
+   </property>
+   <property name="text">
+    <string>Completion time</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-350</x>
+     <y>-70</y>
+     <width>1081</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>dateEdit</zorder>
+  <zorder>timeEdit</zorder>
+  <zorder>saveDate</zorder>
+  <zorder>saveTime</zorder>
+  <zorder>saveDesc</zorder>
+  <zorder>saveAll</zorder>
+  <zorder>Quit</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
