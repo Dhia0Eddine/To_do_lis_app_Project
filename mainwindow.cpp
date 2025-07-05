@@ -86,7 +86,7 @@ MainWindow::MainWindow(QWidget *parent)
         );
     ui->Items_List->setStyleSheet(
         "QListWidget {"
-        "    background-color: #9370DB;"
+        "    background-color: #3F384A;"
         "    color: #ffffff;"
         "    font-family: 'Times New Roman', serif;"
              "font-style: italic;"
