@@ -24,7 +24,7 @@ The **To do list Application** is a desktop application built using Qt and C++. 
 
 ### Prerequisites
 
-- **Qt**: Make sure you have the Qt framework installed on your system.
+- **Qt**: Make sure you have the Qt framework installed on your system
 
 ### Installation
 
